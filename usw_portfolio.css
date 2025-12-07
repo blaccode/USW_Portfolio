@@ -1,1 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    
+    
+    
+}  
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+#bg_video {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensures the video stays behind other content */
+}
+
+
+
+header {
+
+    top: 0;
+    z-index: 1;
+    background-image: url(cloud_navbar_bg.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: round; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+
+ul {
+
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+ul li a {
+    
+    display: block;
+    color: rgb(5, 6, 92);
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul li a:hover {
+    border: 5px solid rgba(216, 215, 219, 0.8);
+    border-radius: 50%;
+    background-image: url(flower_navhover_bg.jpg);
+    background-size: contain;
+    background-color: rgba(226, 227, 231, 0.1);
+    color: white;
+    transition: 0.5s;
+}
+
+.portfolio_img {
+    
+    
+    height: auto;
+    width: 100%;
+}
+
+div.img_container {
+    float: left;
+    margin: 20px;
+    width: 60%;
+}
+
+div.content {
+    overflow: hidden;
+    text-align: justify;
+    word-wrap: break-word;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+div.content:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 40px;
+    transition: 0.3s;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7) , rgba(25, 12, 209, 0.7));
+}
+
+
+h2 {
+    
+    font-size: 36px;
+    margin-bottom: 10px;
+}
 
