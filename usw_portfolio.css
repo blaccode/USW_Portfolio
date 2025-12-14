@@ -123,6 +123,11 @@ h2 {
     background-color: rgb(0, 0, 0, 0.5);
 }
 
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
 footer {
     text-align: center;
     padding: 10px;
@@ -131,5 +136,10 @@ footer {
     bottom: 0;
     width: 100%;
     font-size: 14px;
+}
+
+footer a {
+    color: rgb(5, 6, 92);
+    text-decoration: none;
 }
 
