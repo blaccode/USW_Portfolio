@@ -25,5 +25,5 @@ Welcome to the **USW Portfolio** project! This is a personal portfolio website d
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/USW_Portfolio.git
+   git clone https://blaccode.github.io/USW_Portfolio.git
 
